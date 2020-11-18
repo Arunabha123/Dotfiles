@@ -1,0 +1,30 @@
+[global_config]
+  title_hide_sizetext = True
+  title_transmit_bg_color = "#00796b"
+  title_inactive_bg_color = "#607d8b"
+  title_use_system_font = False
+  title_font = FiraMono Nerd Font 12
+[keybindings]
+  switch_to_tab_1 = <Alt>1
+  switch_to_tab_2 = <Alt>2
+  insert_number = <Primary><Super>1
+[profiles]
+  [[default]]
+    background_color = "#10111b"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = FiraMono Nerd Font 12
+    foreground_color = "#ffffff"
+    scrollbar_position = hidden
+    palette = "#2e3436:#ef4a9e:#00d2bc:#e7ca7a:#9399fa:#ca5bcc:#86d079:#d3d7cf:#555753:#ef4a9e:#00d2bc:#e7ca7a:#9399fa:#ca5bcc:#86d079:#eeeeec"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
