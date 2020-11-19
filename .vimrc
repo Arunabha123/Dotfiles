@@ -1,6 +1,7 @@
 "if &compatible
   " Vim defaults to `compatible` when selecting a vimrc with the command-line
   " `-u` argument. Override this.
+  "
 set nocompatible
 "endif
 
