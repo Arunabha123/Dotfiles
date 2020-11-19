@@ -31,4 +31,3 @@ bspc config presel_feedback_color           "$preselfeedbackcolor"
 bspc rule -a Firefox desktop='^2' follow=on
 bspc rule -a jetbrains-studio desktop='^4' follow=on
 bspc config external_rules_command $HOME/.scripts/android_emulator_rule.sh
-#bspc config external_rules_command $HOME/.scripts/emulator_rule.sh

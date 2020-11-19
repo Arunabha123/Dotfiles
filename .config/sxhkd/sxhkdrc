@@ -17,7 +17,7 @@ super +{_,shift+} {KP_Add,KP_Subtract}
 	pactl -- set-sink-volume {2,3} {+5%,-5%}
 
 super + e ; {f,a,c}
-	{firefox,studio.sh,code}
+	{firefox,android-studio,code}
 
 super + alt + F4
 	$HOME/.scripts/poweroff_custom.sh
