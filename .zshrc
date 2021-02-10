@@ -116,6 +116,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls='lsd'
 alias gitdotfiles='/usr/bin/git --git-dir=$HOME/.Dotfiles/ --work-tree=$HOME'
+alias python='python3'
+alias pip='pip3'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
